@@ -3,21 +3,27 @@ body {
     color: #f2f5f3;
 }
 
-button {
+a.nav-btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.05em;
+
+    display: inline-block;
+    padding: 10px 18px;
+
     border-radius: 0.8em;
     cursor: pointer;
     border: none;
+    text-decoration: none;
+
     background-color: #e4ebe6;
     color: #101411;
 }
-button:hover {
+a.nav-btn:hover {
     background: linear-gradient(to right, #08872B, #5FED83);
 }
-button:active {
+a.nav-btn:active {
     transform: scale(0.95);
 }
 
