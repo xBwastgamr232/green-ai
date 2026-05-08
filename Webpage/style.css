@@ -1,10 +1,10 @@
 body {
     background-color: #232925;
     color: #f2f5f3;
+    font-family: segoe ui;
 }
 
-a.nav-btn {
-    font-family: inherit;
+.nav-btn {
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.05em;
@@ -20,16 +20,13 @@ a.nav-btn {
     background-color: #e4ebe6;
     color: #101411;
 }
-a.nav-btn:hover {
+.nav-btn:hover {
     background: linear-gradient(to right, #08872B, #5FED83);
 }
-a.nav-btn:active {
+.nav-btn:active {
     transform: scale(0.95);
 }
 
-p {
-    color: #f2f5f3;
-}
 
 /*
 Color Palette for GitHub Green Theme
