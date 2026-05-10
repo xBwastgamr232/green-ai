@@ -1,0 +1,80 @@
+/* The default websitte theme */
+:root {
+	--bg-color: #121214;
+	--text-color: #ffffff;
+	--bor-color: #29292D;
+	--bg-bar-color: #1A1A1E;
+	--bg-butten-color: #333;
+}
+
+/* The theme for light */
+@media (prefers-color-scheme: light) {
+	:root{
+		--bg-color: #F3F3F4;
+		--text-color: #000000;
+		--bor-color: #D9D9DC;
+		--bg-bar-color: #FBFBFB;
+		--bg-butten-color: #b9b9b9;
+	}
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	background: var(--bg-color);
+	font-family: Arial, sans-serif;
+}
+
+/* MAIN CONTENT */
+main {
+	color: var(--text-color);
+	font-size: 25px;
+	height: 100%;
+}
+
+.page{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.side{
+	background-color: var(--bor-color);
+	width: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+.chat{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.chat p{
+	color: var(--text-color);
+	font-size: 20px;
+}
+
+.chat h1{
+	color: var(--text-color);
+	font-size: 80px;
+}
+
+
+.chat input{
+	width: 400px;
+	height: 20px;
+	background-color: var(--bg-butten-color);
+	color: var(--text-color);
+}
+
+/* .chat button{
+	width: 400px;
+	height: 20px;
+	background-color: var(--bg-butten-color);
+} */
+
+
